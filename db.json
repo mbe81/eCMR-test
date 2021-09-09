@@ -1,0 +1,2402 @@
+{
+	"documents": [{
+			"agreedDateOfDelivery": null,
+			"agreedDateOfTakingOver": null,
+			"agreedDateTimeOfDelivery": "2021-07-29T03:54:00Z",
+			"agreedDateTimeOfTakingOver": "2021-07-29T01:52:00Z",
+			"allowRtiAddition": false,
+			"approvals": [],
+			"attachments": [],
+			"authorityReference": "NL000000167671TFL",
+			"availableSigningMethods": {
+				"collection": ["TFA", "SIGN_ON_GLASS"],
+				"carrierToCarrier": ["TFA"],
+				"delivery": ["TFA", "SIGN_ON_GLASS"]
+			},
+			"carrier": {
+				"accountId": "29264",
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "",
+				"contactEmailAddress": "",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "",
+				"countryName": "",
+				"glnCode": null,
+				"licensePlateData": {
+					"commitId": "0",
+					"createDateTimeClient": "1970-01-01T00:00:00.000Z",
+					"createDateTimeServer": "1970-01-01T00:00:00.000Z",
+					"licensePlates": [{
+						"distanceDriven": null,
+						"licensePlateNumber": "12-AB-34",
+						"vehicleType": "TRUCK"
+					}, {
+						"distanceDriven": null,
+						"licensePlateNumber": "TE-12-ST",
+						"vehicleType": "TRAILER"
+					}]
+				},
+				"name": "Peter Appel Transport BV",
+				"permitNumber": null,
+				"postalBox": "",
+				"postalCode": "",
+				"roleId": "1350120",
+				"streetName": "",
+				"submittedAccountEmailAddress": "demo.transfollow+carrier@gmail.com",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"carrierAccessCode": null,
+			"carrierAccessCodes": null,
+			"carrierCode": "",
+			"carrierToDriverInstructions": null,
+			"checkIns": [],
+			"client": null,
+			"collectionCarrierArrival": null,
+			"collectionCarrierDeparture": null,
+			"collectionMission": {
+				"id": {
+					"$numberInt": "30463"
+				},
+				"type": "COLLECTION",
+				"status": "DRAFT",
+				"company": {
+					"accountId": "34085",
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Tilburg",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400000327",
+					"name": "DCT",
+					"postalBox": "",
+					"postalCode": "5015BZ",
+					"roleId": "1350118",
+					"streetName": "Pegasusweg 1",
+					"submittedAccountEmailAddress": "tech.transport@ah.nl",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"place": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Tilburg",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400000327",
+					"name": "DCT",
+					"postalBox": "",
+					"postalCode": "5015BZ",
+					"roleId": "1350119",
+					"streetName": "Pegasusweg 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"agreedDateTime": "2021-07-29T01:52:00Z",
+				"eta": null,
+				"drivers": [],
+				"vehicles": [],
+				"freightDocuments": [],
+				"configuration": {
+					"workflow": ["START_MISSION", "REGISTER_ARRIVAL", "REGISTER_START_LOADING", "REGISTER_END_LOADING", "START_SIGNING", "REGISTER_DEPARTURE"]
+				}
+			},
+			"comments": [],
+			"configuration": {
+				"allowRtiAddition": false,
+				"skipFreightDocumentDetails": false,
+				"signingInspections": {
+					"showAddress": true,
+					"showGoods": true,
+					"showRtis": false,
+					"showTimes": false,
+					"showReferences": false,
+					"showLicensePlates": false,
+					"showCommentsAndAttachments": true,
+					"showTemperatureControl": false,
+					"references": false,
+					"goods": true,
+					"rtis": false,
+					"times": false,
+					"commentsAndAttachments": true,
+					"temperatureControl": false,
+					"licensePlates": false,
+					"address": true
+				},
+				"counterpartySigningInspections": {
+					"showSeals": true
+				},
+				"availableSigningMethods": {
+					"collection": ["TFA", "SIGN_ON_GLASS"],
+					"carrierToCarrier": ["TFA"],
+					"delivery": ["TFA", "SIGN_ON_GLASS"]
+				},
+				"excludedTransferTypes": ["CARRIER_TO_CARRIER", "DELIVERY_FOR_FURTHER_INSPECTION", "LEAVE_AT_INTERMEDIATE", "PICKUP_FROM_INTERMEDIATE"],
+				"predefinedReturnableTransportItems": null,
+				"predefinedComments": ["Mijn levering had transportschade", "Mijn levering heeft manco", "Zegelnummer was incorrect"],
+				"allowRoleUpdateForCarrier": false,
+				"forceCarrierSoGSignature": false,
+				"skipProofOfTransfer": true,
+				"blockSigningOnError": true,
+				"allowCheckIn": false
+			},
+			"consignee": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Breda",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400010050",
+				"name": "1005",
+				"postalBox": "",
+				"postalCode": "4834HE",
+				"roleId": "1350121",
+				"streetName": "De Burcht 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"consignor": {
+				"accountId": "34085",
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Tilburg",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400000327",
+				"name": "DCT",
+				"postalBox": "",
+				"postalCode": "5015BZ",
+				"roleId": "1350118",
+				"streetName": "Pegasusweg 1",
+				"submittedAccountEmailAddress": "tech.transport@ah.nl",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"containers": [],
+			"controlledTemperatures": null,
+			"deliveryCarrierArrival": null,
+			"deliveryCarrierDeparture": null,
+			"deliveryDate": null,
+			"deliveryMission": {
+				"id": {
+					"$numberInt": "30464"
+				},
+				"type": "DELIVERY",
+				"status": "DRAFT",
+				"company": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Breda",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400010050",
+					"name": "1005",
+					"postalBox": "",
+					"postalCode": "4834HE",
+					"roleId": "1350121",
+					"streetName": "De Burcht 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"place": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Breda",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400010050",
+					"name": "1005",
+					"postalBox": "",
+					"postalCode": "4834HE",
+					"roleId": "1350122",
+					"streetName": "De Burcht 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"agreedDateTime": "2021-07-29T03:54:00Z",
+				"eta": null,
+				"drivers": [],
+				"vehicles": [],
+				"freightDocuments": [],
+				"configuration": {
+					"workflow": ["START_MISSION", "REGISTER_ARRIVAL", "REGISTER_START_UNLOADING", "REGISTER_END_UNLOADING", "START_SIGNING", "REGISTER_DEPARTURE"]
+				}
+			},
+			"mileageAtDeparture": null,
+			"mileageAtArrival": null,
+			"traversedDistance": null,
+			"mileageUnit": null,
+			"establishedCountry": "NLD",
+			"establishedDate": "2021-07-29",
+			"establishedPlace": "Tilburg",
+			"events": [],
+			"externalIdentifier": null,
+			"freightDocumentId": "228403",
+			"goods": "",
+			"handlingInstructions": {
+				"controlledTemperature": false,
+				"temperature": "HB"
+			},
+			"incoterms": null,
+			"lastModifiedDateTime": "2021-09-02T07:33:39.991Z",
+			"logoObjectStoreUrl": null,
+			"orderNumber": null,
+			"ownDelegates": [],
+			"ownPermissions": [{
+				"permissions": ["VIEW", "SUBMIT_APPROVAL", "DELEGATE", "VIEW_SEALED_ATTACHMENT", "COMMENT"],
+				"role": "CONSIGNOR",
+				"roleId": "1350118"
+			}],
+			"paymentForCarriage": null,
+			"pdfTemplateType": "ECMR",
+			"placeOfDelivery": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Breda",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400010050",
+				"name": "1005",
+				"postalBox": "",
+				"postalCode": "4834HE",
+				"roleId": "1350122",
+				"streetName": "De Burcht 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"placeOfTakingOver": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Tilburg",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400000327",
+				"name": "DCT",
+				"postalBox": "",
+				"postalCode": "5015BZ",
+				"roleId": "1350119",
+				"streetName": "Pegasusweg 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"recordedLocations": {
+				"locationCollectionCarrierArrival": null,
+				"locationCollectionCarrierDeparture": null,
+				"locationDeliveryCarrierArrival": null,
+				"locationDeliveryCarrierDeparture": null,
+				"locationLoadingStartTime": null,
+				"locationLoadingEndTime": null,
+				"locationUnloadingStartTime": null,
+				"locationUnloadingEndTime": null
+			},
+			"references": [{
+				"allowCarrierEdit": false,
+				"name": "Note",
+				"referenceId": "0",
+				"roleId": null,
+				"value": "DCT|30-4-708, dock 35"
+			}, {
+				"allowCarrierEdit": false,
+				"name": "Dock",
+				"referenceId": "1",
+				"roleId": null,
+				"value": "35"
+			}, {
+				"allowCarrierEdit": false,
+				"name": "Trip identifier",
+				"referenceId": "2",
+				"roleId": null,
+				"value": "DCT|2021|30-4-708"
+			}],
+			"reimbursementCurrency": "   ",
+			"senderInstructions": "",
+			"signingInspections": {
+				"showAddress": true,
+				"showGoods": true,
+				"showRtis": false,
+				"showTimes": false,
+				"showReferences": false,
+				"showLicensePlates": false,
+				"showCommentsAndAttachments": true,
+				"showTemperatureControl": false,
+				"references": false,
+				"goods": true,
+				"rtis": false,
+				"times": false,
+				"commentsAndAttachments": true,
+				"temperatureControl": false,
+				"licensePlates": false,
+				"address": true
+			},
+			"specialAgreements": "",
+			"status": "DRAFT",
+			"structuredGoods": [{
+				"type": "GOOD",
+				"commercialValue": null,
+				"commodityCode": null,
+				"currency": null,
+				"customMeasurementQuantity": null,
+				"customMeasurementUnit": null,
+				"eanCode": null,
+				"internalCode": null,
+				"loadingMeters": null,
+				"methodOfPackaging": null,
+				"name": "Goods",
+				"natureOfGoods": null,
+				"netWeight": null,
+				"netWeightUnit": null,
+				"numberOfLoadingPlaces": null,
+				"numberOfPackages": null,
+				"numberOfPackagesRefusedAtDelivery": null,
+				"productId": {
+					"$numberInt": "1"
+				},
+				"references": null,
+				"shortName": null,
+				"ssccCode": null,
+				"statisticalNumber": null,
+				"tareWeight": null,
+				"tareWeightUnit": null,
+				"volume": null,
+				"volumeUnit": null,
+				"weight": null,
+				"weightUnit": null
+			}],
+			"structuredGoodsInfo": {
+				"totalNumberOfPackages": {
+					"$numberInt": "20"
+				},
+				"totalGrossWeight": {
+					"$numberInt": "8000"
+				},
+				"totalGrossWeightUnit": "KILOGRAM",
+				"totalNetWeight": null,
+				"totalNetWeightUnit": null,
+				"totalTareWeight": null,
+				"totalTareWeightUnit": null,
+				"totalVolume": null,
+				"totalVolumeUnit": null,
+				"totalCommercialValue": null,
+				"totalLoadingMeters": null,
+				"totalCommercialValueCurrency": null,
+				"emergencyPhoneNumber": null,
+				"emergencyContactName": null,
+				"sealNumbers": "123123",
+				"totalCustomMeasurementQuantity": null,
+				"totalCustomMeasurementUnit": null
+			},
+			"submitter": {
+				"accountId": "29177",
+				"name": "Demo",
+				"submittedAccountEmailAddress": "demo.transfollow@gmail.com",
+				"glnCode": null
+			},
+			"submitterAccountId": "29177",
+			"submitterName": "Demo",
+			"subscriptions": null,
+			"subsequentCarriers": [],
+			"timeWindowOfDelivery": null,
+			"timeWindowOfTakingOver": null,
+			"transFollowNumber": "000000250955",
+			"transportConditions": "AVC2002",
+			"transportReference": null,
+			"type": "WAYBILL",
+			"updates": [{
+				"account": {
+					"accountId": "29177",
+					"accountNumber": "00029302",
+					"email": "demo.transfollow@gmail.com",
+					"name": "Demo",
+					"phoneNumber": "+31623909477"
+				},
+				"commitId": "603012",
+				"createDateTimeClient": "2021-09-02T07:33:39.991Z",
+				"createDateTimeServer": "2021-09-02T07:33:39.991Z",
+				"newFreightDocumentStatus": "DRAFT"
+			}],
+			"viewPdfUrl": "https://partner.transfollow.com/api/freightdocuments/pdf/?token=1510591d-46b7-472c-b21c-cc47829c1815"
+		},
+		{
+			"agreedDateOfDelivery": null,
+			"agreedDateOfTakingOver": null,
+			"agreedDateTimeOfDelivery": "2021-07-29T03:54:00Z",
+			"agreedDateTimeOfTakingOver": "2021-07-29T01:52:00Z",
+			"allowRtiAddition": false,
+			"approvals": [],
+			"attachments": [],
+			"authorityReference": "NL000000167595TFL",
+			"availableSigningMethods": {
+				"collection": ["TFA", "SIGN_ON_GLASS"],
+				"carrierToCarrier": ["TFA"],
+				"delivery": ["TFA", "SIGN_ON_GLASS"]
+			},
+			"carrier": {
+				"accountId": "29264",
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "",
+				"contactEmailAddress": "",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "",
+				"countryName": "",
+				"glnCode": null,
+				"licensePlateData": {
+					"commitId": "602744",
+					"createDateTimeClient": "2021-08-30T14:12:22.107Z",
+					"createDateTimeServer": "2021-08-30T14:12:22.107Z",
+					"licensePlates": [{
+						"distanceDriven": null,
+						"licensePlateNumber": "12-AB-34",
+						"vehicleType": "TRUCK"
+					}, {
+						"distanceDriven": null,
+						"licensePlateNumber": "TE-12-ST",
+						"vehicleType": "TRAILER"
+					}]
+				},
+				"name": "Peter Appel Transport BV",
+				"permitNumber": null,
+				"postalBox": "",
+				"postalCode": "",
+				"roleId": "1349637",
+				"streetName": "",
+				"submittedAccountEmailAddress": "demo.transfollow+carrier@gmail.com",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"carrierAccessCode": null,
+			"carrierAccessCodes": null,
+			"carrierCode": "",
+			"carrierToDriverInstructions": null,
+			"checkIns": [],
+			"client": null,
+			"collectionCarrierArrival": null,
+			"collectionCarrierDeparture": null,
+			"collectionMission": {
+				"id": {
+					"$numberInt": "30307"
+				},
+				"type": "COLLECTION",
+				"status": "TO_START",
+				"company": {
+					"accountId": "34085",
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Tilburg",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400000327",
+					"name": "DCT",
+					"postalBox": "",
+					"postalCode": "5015BZ",
+					"roleId": "1349635",
+					"streetName": "Pegasusweg 1",
+					"submittedAccountEmailAddress": "tech.transport@ah.nl",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"place": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Tilburg",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400000327",
+					"name": "DCT",
+					"postalBox": "",
+					"postalCode": "5015BZ",
+					"roleId": "1349636",
+					"streetName": "Pegasusweg 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"agreedDateTime": "2021-07-29T01:52:00Z",
+				"eta": null,
+				"drivers": [],
+				"vehicles": [],
+				"freightDocuments": [],
+				"configuration": {
+					"workflow": ["START_MISSION", "REGISTER_ARRIVAL", "REGISTER_START_LOADING", "REGISTER_END_LOADING", "START_SIGNING", "REGISTER_DEPARTURE"]
+				}
+			},
+			"collectionSecrets": {
+				"s2": "182",
+				"s3": "253"
+			},
+			"comments": [],
+			"configuration": {
+				"allowRtiAddition": false,
+				"skipFreightDocumentDetails": false,
+				"signingInspections": {
+					"showAddress": true,
+					"showGoods": true,
+					"showRtis": false,
+					"showTimes": false,
+					"showReferences": false,
+					"showLicensePlates": false,
+					"showCommentsAndAttachments": true,
+					"showTemperatureControl": false,
+					"references": false,
+					"goods": true,
+					"rtis": false,
+					"times": false,
+					"commentsAndAttachments": true,
+					"temperatureControl": false,
+					"licensePlates": false,
+					"address": true
+				},
+				"counterpartySigningInspections": {
+					"showSeals": true
+				},
+				"availableSigningMethods": {
+					"collection": ["TFA", "SIGN_ON_GLASS"],
+					"carrierToCarrier": ["TFA"],
+					"delivery": ["TFA", "SIGN_ON_GLASS"]
+				},
+				"excludedTransferTypes": ["CARRIER_TO_CARRIER", "DELIVERY_FOR_FURTHER_INSPECTION", "LEAVE_AT_INTERMEDIATE", "PICKUP_FROM_INTERMEDIATE"],
+				"predefinedReturnableTransportItems": null,
+				"predefinedComments": ["Mijn levering had transportschade", "Mijn levering heeft manco", "Zegelnummer was incorrect"],
+				"allowRoleUpdateForCarrier": false,
+				"forceCarrierSoGSignature": false,
+				"skipProofOfTransfer": true,
+				"blockSigningOnError": true,
+				"allowCheckIn": false
+			},
+			"consignee": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Breda",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400010050",
+				"name": "1005",
+				"postalBox": "",
+				"postalCode": "4834HE",
+				"roleId": "1349638",
+				"streetName": "De Burcht 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"consignor": {
+				"accountId": "34085",
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Tilburg",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400000327",
+				"name": "DCT",
+				"postalBox": "",
+				"postalCode": "5015BZ",
+				"roleId": "1349635",
+				"streetName": "Pegasusweg 1",
+				"submittedAccountEmailAddress": "tech.transport@ah.nl",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"containers": [],
+			"controlledTemperatures": null,
+			"deliveryCarrierArrival": null,
+			"deliveryCarrierDeparture": null,
+			"deliveryDate": null,
+			"deliveryMission": {
+				"id": {
+					"$numberInt": "30308"
+				},
+				"type": "DELIVERY",
+				"status": "TO_START",
+				"company": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Breda",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400010050",
+					"name": "1005",
+					"postalBox": "",
+					"postalCode": "4834HE",
+					"roleId": "1349638",
+					"streetName": "De Burcht 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"place": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Breda",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400010050",
+					"name": "1005",
+					"postalBox": "",
+					"postalCode": "4834HE",
+					"roleId": "1349639",
+					"streetName": "De Burcht 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"agreedDateTime": "2021-07-29T03:54:00Z",
+				"eta": null,
+				"drivers": [],
+				"vehicles": [],
+				"freightDocuments": [],
+				"configuration": {
+					"workflow": ["START_MISSION", "REGISTER_ARRIVAL", "REGISTER_START_UNLOADING", "REGISTER_END_UNLOADING", "START_SIGNING", "REGISTER_DEPARTURE"]
+				}
+			},
+			"deliverySecrets": {},
+			"mileageAtDeparture": null,
+			"mileageAtArrival": null,
+			"traversedDistance": null,
+			"mileageUnit": null,
+			"establishedCountry": "NLD",
+			"establishedDate": "2021-07-29",
+			"establishedPlace": "Tilburg",
+			"events": [],
+			"externalIdentifier": null,
+			"freightDocumentId": "228325",
+			"goods": "",
+			"handlingInstructions": {
+				"controlledTemperature": false,
+				"temperature": "HB"
+			},
+			"incoterms": null,
+			"lastModifiedDateTime": "2021-08-30T14:12:22.162Z",
+			"logoObjectStoreUrl": null,
+			"orderNumber": null,
+			"ownDelegates": [],
+			"ownPermissions": [{
+				"permissions": ["VIEW", "SUBMIT_APPROVAL", "DELEGATE", "VIEW_SEALED_ATTACHMENT", "COMMENT"],
+				"role": "CONSIGNOR",
+				"roleId": "1349635"
+			}],
+			"paymentForCarriage": null,
+			"pdfTemplateType": "ECMR",
+			"placeOfDelivery": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Breda",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400010050",
+				"name": "1005",
+				"postalBox": "",
+				"postalCode": "4834HE",
+				"roleId": "1349639",
+				"streetName": "De Burcht 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"placeOfTakingOver": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Tilburg",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400000327",
+				"name": "DCT",
+				"postalBox": "",
+				"postalCode": "5015BZ",
+				"roleId": "1349636",
+				"streetName": "Pegasusweg 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"recordedLocations": {
+				"locationCollectionCarrierArrival": null,
+				"locationCollectionCarrierDeparture": null,
+				"locationDeliveryCarrierArrival": null,
+				"locationDeliveryCarrierDeparture": null,
+				"locationLoadingStartTime": null,
+				"locationLoadingEndTime": null,
+				"locationUnloadingStartTime": null,
+				"locationUnloadingEndTime": null
+			},
+			"references": [{
+				"allowCarrierEdit": false,
+				"name": "Note",
+				"referenceId": "0",
+				"roleId": null,
+				"value": "DCT|30-4-708, dock 35"
+			}, {
+				"allowCarrierEdit": false,
+				"name": "Dock",
+				"referenceId": "1",
+				"roleId": null,
+				"value": "35"
+			}, {
+				"allowCarrierEdit": false,
+				"name": "Trip identifier",
+				"referenceId": "2",
+				"roleId": null,
+				"value": "DCT|2021|30-4-708"
+			}],
+			"reimbursementCurrency": "   ",
+			"senderInstructions": "",
+			"signingInspections": {
+				"showAddress": true,
+				"showGoods": true,
+				"showRtis": false,
+				"showTimes": false,
+				"showReferences": false,
+				"showLicensePlates": false,
+				"showCommentsAndAttachments": true,
+				"showTemperatureControl": false,
+				"references": false,
+				"goods": true,
+				"rtis": false,
+				"times": false,
+				"commentsAndAttachments": true,
+				"temperatureControl": false,
+				"licensePlates": false,
+				"address": true
+			},
+			"specialAgreements": "",
+			"status": "ISSUED",
+			"structuredGoods": [{
+				"type": "GOOD",
+				"commercialValue": null,
+				"commodityCode": null,
+				"currency": null,
+				"customMeasurementQuantity": null,
+				"customMeasurementUnit": null,
+				"eanCode": null,
+				"internalCode": null,
+				"loadingMeters": null,
+				"methodOfPackaging": null,
+				"name": "Goods",
+				"natureOfGoods": null,
+				"netWeight": null,
+				"netWeightUnit": null,
+				"numberOfLoadingPlaces": null,
+				"numberOfPackages": null,
+				"numberOfPackagesRefusedAtDelivery": null,
+				"productId": {
+					"$numberInt": "1"
+				},
+				"references": null,
+				"shortName": null,
+				"ssccCode": null,
+				"statisticalNumber": null,
+				"tareWeight": null,
+				"tareWeightUnit": null,
+				"volume": null,
+				"volumeUnit": null,
+				"weight": null,
+				"weightUnit": null
+			}],
+			"structuredGoodsInfo": {
+				"totalNumberOfPackages": {
+					"$numberInt": "20"
+				},
+				"totalGrossWeight": {
+					"$numberInt": "8000"
+				},
+				"totalGrossWeightUnit": "KILOGRAM",
+				"totalNetWeight": null,
+				"totalNetWeightUnit": null,
+				"totalTareWeight": null,
+				"totalTareWeightUnit": null,
+				"totalVolume": null,
+				"totalVolumeUnit": null,
+				"totalCommercialValue": null,
+				"totalLoadingMeters": null,
+				"totalCommercialValueCurrency": null,
+				"emergencyPhoneNumber": null,
+				"emergencyContactName": null,
+				"sealNumbers": "123123",
+				"totalCustomMeasurementQuantity": null,
+				"totalCustomMeasurementUnit": null
+			},
+			"submitter": {
+				"accountId": "29177",
+				"name": "Demo",
+				"submittedAccountEmailAddress": "demo.transfollow@gmail.com",
+				"glnCode": null
+			},
+			"submitterAccountId": "29177",
+			"submitterName": "Demo",
+			"subscriptions": null,
+			"subsequentCarriers": [],
+			"timeWindowOfDelivery": null,
+			"timeWindowOfTakingOver": null,
+			"transFollowNumber": "000000250877",
+			"transportConditions": "AVC2002",
+			"transportReference": null,
+			"type": "WAYBILL",
+			"updates": [{
+				"account": {
+					"accountId": "29177",
+					"accountNumber": "00029302",
+					"email": "demo.transfollow@gmail.com",
+					"name": "Demo",
+					"phoneNumber": "+31623909477"
+				},
+				"commitId": "602748",
+				"createDateTimeClient": "2021-08-30T14:12:22.162Z",
+				"createDateTimeServer": "2021-08-30T14:12:22.162Z",
+				"newFreightDocumentStatus": "ISSUED"
+			}],
+			"viewPdfUrl": "https://partner.transfollow.com/api/freightdocuments/pdf/?token=d95bbe3b-c205-4268-8fcf-991b219c3e1a"
+		},
+		{
+			"agreedDateOfDelivery": null,
+			"agreedDateOfTakingOver": null,
+			"agreedDateTimeOfDelivery": "2021-07-29T03:54:00Z",
+			"agreedDateTimeOfTakingOver": "2021-07-29T01:52:00Z",
+			"allowRtiAddition": false,
+			"approvals": [],
+			"attachments": [],
+			"authorityReference": "NL000000167594TFL",
+			"availableSigningMethods": {
+				"collection": ["TFA", "SIGN_ON_GLASS"],
+				"carrierToCarrier": ["TFA"],
+				"delivery": ["TFA", "SIGN_ON_GLASS"]
+			},
+			"carrier": {
+				"accountId": "29264",
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "",
+				"contactEmailAddress": "",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "",
+				"countryName": "",
+				"glnCode": null,
+				"licensePlateData": {
+					"commitId": "602739",
+					"createDateTimeClient": "2021-08-30T14:12:03.221Z",
+					"createDateTimeServer": "2021-08-30T14:12:03.221Z",
+					"licensePlates": [{
+						"distanceDriven": null,
+						"licensePlateNumber": "12-AB-34",
+						"vehicleType": "TRUCK"
+					}, {
+						"distanceDriven": null,
+						"licensePlateNumber": "TE-12-ST",
+						"vehicleType": "TRAILER"
+					}]
+				},
+				"name": "Peter Appel Transport BV",
+				"permitNumber": null,
+				"postalBox": "",
+				"postalCode": "",
+				"roleId": "1349631",
+				"streetName": "",
+				"submittedAccountEmailAddress": "demo.transfollow+carrier@gmail.com",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"carrierAccessCode": null,
+			"carrierAccessCodes": null,
+			"carrierCode": "",
+			"carrierToDriverInstructions": null,
+			"checkIns": [],
+			"client": null,
+			"collectionCarrierArrival": null,
+			"collectionCarrierDeparture": null,
+			"collectionMission": {
+				"id": {
+					"$numberInt": "30305"
+				},
+				"type": "COLLECTION",
+				"status": "TO_START",
+				"company": {
+					"accountId": "34085",
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Tilburg",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400000327",
+					"name": "DCT",
+					"postalBox": "",
+					"postalCode": "5015BZ",
+					"roleId": "1349629",
+					"streetName": "Pegasusweg 1",
+					"submittedAccountEmailAddress": "tech.transport@ah.nl",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"place": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Tilburg",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400000327",
+					"name": "DCT",
+					"postalBox": "",
+					"postalCode": "5015BZ",
+					"roleId": "1349630",
+					"streetName": "Pegasusweg 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"agreedDateTime": "2021-07-29T01:52:00Z",
+				"eta": null,
+				"drivers": [],
+				"vehicles": [],
+				"freightDocuments": [],
+				"configuration": {
+					"workflow": ["START_MISSION", "REGISTER_ARRIVAL", "REGISTER_START_LOADING", "REGISTER_END_LOADING", "START_SIGNING", "REGISTER_DEPARTURE"]
+				}
+			},
+			"collectionSecrets": {
+				"s2": "258",
+				"s3": "059"
+			},
+			"comments": [],
+			"configuration": {
+				"allowRtiAddition": false,
+				"skipFreightDocumentDetails": false,
+				"signingInspections": {
+					"showAddress": true,
+					"showGoods": true,
+					"showRtis": false,
+					"showTimes": false,
+					"showReferences": false,
+					"showLicensePlates": false,
+					"showCommentsAndAttachments": true,
+					"showTemperatureControl": false,
+					"references": false,
+					"goods": true,
+					"rtis": false,
+					"times": false,
+					"commentsAndAttachments": true,
+					"temperatureControl": false,
+					"licensePlates": false,
+					"address": true
+				},
+				"counterpartySigningInspections": {
+					"showSeals": true
+				},
+				"availableSigningMethods": {
+					"collection": ["TFA", "SIGN_ON_GLASS"],
+					"carrierToCarrier": ["TFA"],
+					"delivery": ["TFA", "SIGN_ON_GLASS"]
+				},
+				"excludedTransferTypes": ["CARRIER_TO_CARRIER", "DELIVERY_FOR_FURTHER_INSPECTION", "LEAVE_AT_INTERMEDIATE", "PICKUP_FROM_INTERMEDIATE"],
+				"predefinedReturnableTransportItems": null,
+				"predefinedComments": ["Mijn levering had transportschade", "Mijn levering heeft manco", "Zegelnummer was incorrect"],
+				"allowRoleUpdateForCarrier": false,
+				"forceCarrierSoGSignature": false,
+				"skipProofOfTransfer": true,
+				"blockSigningOnError": true,
+				"allowCheckIn": false
+			},
+			"consignee": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Breda",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400010050",
+				"name": "1005",
+				"postalBox": "",
+				"postalCode": "4834HE",
+				"roleId": "1349632",
+				"streetName": "De Burcht 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"consignor": {
+				"accountId": "34085",
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Tilburg",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400000327",
+				"name": "DCT",
+				"postalBox": "",
+				"postalCode": "5015BZ",
+				"roleId": "1349629",
+				"streetName": "Pegasusweg 1",
+				"submittedAccountEmailAddress": "tech.transport@ah.nl",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"containers": [],
+			"controlledTemperatures": null,
+			"deliveryCarrierArrival": null,
+			"deliveryCarrierDeparture": null,
+			"deliveryDate": null,
+			"deliveryMission": {
+				"id": {
+					"$numberInt": "30306"
+				},
+				"type": "DELIVERY",
+				"status": "TO_START",
+				"company": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Breda",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400010050",
+					"name": "1005",
+					"postalBox": "",
+					"postalCode": "4834HE",
+					"roleId": "1349632",
+					"streetName": "De Burcht 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"place": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Breda",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400010050",
+					"name": "1005",
+					"postalBox": "",
+					"postalCode": "4834HE",
+					"roleId": "1349633",
+					"streetName": "De Burcht 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"agreedDateTime": "2021-07-29T03:54:00Z",
+				"eta": null,
+				"drivers": [],
+				"vehicles": [],
+				"freightDocuments": [],
+				"configuration": {
+					"workflow": ["START_MISSION", "REGISTER_ARRIVAL", "REGISTER_START_UNLOADING", "REGISTER_END_UNLOADING", "START_SIGNING", "REGISTER_DEPARTURE"]
+				}
+			},
+			"deliverySecrets": {},
+			"mileageAtDeparture": null,
+			"mileageAtArrival": null,
+			"traversedDistance": null,
+			"mileageUnit": null,
+			"establishedCountry": "NLD",
+			"establishedDate": "2021-07-29",
+			"establishedPlace": "Tilburg",
+			"events": [],
+			"externalIdentifier": null,
+			"freightDocumentId": "228324",
+			"goods": "",
+			"handlingInstructions": {
+				"controlledTemperature": false,
+				"temperature": "HB"
+			},
+			"incoterms": null,
+			"lastModifiedDateTime": "2021-08-30T14:12:03.294Z",
+			"logoObjectStoreUrl": null,
+			"orderNumber": null,
+			"ownDelegates": [],
+			"ownPermissions": [{
+				"permissions": ["VIEW", "SUBMIT_APPROVAL", "DELEGATE", "VIEW_SEALED_ATTACHMENT", "COMMENT"],
+				"role": "CONSIGNOR",
+				"roleId": "1349629"
+			}],
+			"paymentForCarriage": null,
+			"pdfTemplateType": "ECMR",
+			"placeOfDelivery": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Breda",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400010050",
+				"name": "1005",
+				"postalBox": "",
+				"postalCode": "4834HE",
+				"roleId": "1349633",
+				"streetName": "De Burcht 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"placeOfTakingOver": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Tilburg",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400000327",
+				"name": "DCT",
+				"postalBox": "",
+				"postalCode": "5015BZ",
+				"roleId": "1349630",
+				"streetName": "Pegasusweg 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"recordedLocations": {
+				"locationCollectionCarrierArrival": null,
+				"locationCollectionCarrierDeparture": null,
+				"locationDeliveryCarrierArrival": null,
+				"locationDeliveryCarrierDeparture": null,
+				"locationLoadingStartTime": null,
+				"locationLoadingEndTime": null,
+				"locationUnloadingStartTime": null,
+				"locationUnloadingEndTime": null
+			},
+			"references": [{
+				"allowCarrierEdit": false,
+				"name": "Note",
+				"referenceId": "0",
+				"roleId": null,
+				"value": "DCT|30-4-708, dock 35"
+			}, {
+				"allowCarrierEdit": false,
+				"name": "Dock",
+				"referenceId": "1",
+				"roleId": null,
+				"value": "35"
+			}, {
+				"allowCarrierEdit": false,
+				"name": "Trip identifier",
+				"referenceId": "2",
+				"roleId": null,
+				"value": "DCT|2021|30-4-708"
+			}],
+			"reimbursementCurrency": "   ",
+			"senderInstructions": "",
+			"signingInspections": {
+				"showAddress": true,
+				"showGoods": true,
+				"showRtis": false,
+				"showTimes": false,
+				"showReferences": false,
+				"showLicensePlates": false,
+				"showCommentsAndAttachments": true,
+				"showTemperatureControl": false,
+				"references": false,
+				"goods": true,
+				"rtis": false,
+				"times": false,
+				"commentsAndAttachments": true,
+				"temperatureControl": false,
+				"licensePlates": false,
+				"address": true
+			},
+			"specialAgreements": "",
+			"status": "ISSUED",
+			"structuredGoods": [{
+				"type": "GOOD",
+				"commercialValue": null,
+				"commodityCode": null,
+				"currency": null,
+				"customMeasurementQuantity": null,
+				"customMeasurementUnit": null,
+				"eanCode": null,
+				"internalCode": null,
+				"loadingMeters": null,
+				"methodOfPackaging": null,
+				"name": "Goods",
+				"natureOfGoods": null,
+				"netWeight": null,
+				"netWeightUnit": null,
+				"numberOfLoadingPlaces": null,
+				"numberOfPackages": null,
+				"numberOfPackagesRefusedAtDelivery": null,
+				"productId": {
+					"$numberInt": "1"
+				},
+				"references": null,
+				"shortName": null,
+				"ssccCode": null,
+				"statisticalNumber": null,
+				"tareWeight": null,
+				"tareWeightUnit": null,
+				"volume": null,
+				"volumeUnit": null,
+				"weight": null,
+				"weightUnit": null
+			}],
+			"structuredGoodsInfo": {
+				"totalNumberOfPackages": {
+					"$numberInt": "20"
+				},
+				"totalGrossWeight": {
+					"$numberInt": "8000"
+				},
+				"totalGrossWeightUnit": "KILOGRAM",
+				"totalNetWeight": null,
+				"totalNetWeightUnit": null,
+				"totalTareWeight": null,
+				"totalTareWeightUnit": null,
+				"totalVolume": null,
+				"totalVolumeUnit": null,
+				"totalCommercialValue": null,
+				"totalLoadingMeters": null,
+				"totalCommercialValueCurrency": null,
+				"emergencyPhoneNumber": null,
+				"emergencyContactName": null,
+				"sealNumbers": "123123",
+				"totalCustomMeasurementQuantity": null,
+				"totalCustomMeasurementUnit": null
+			},
+			"submitter": {
+				"accountId": "29177",
+				"name": "Demo",
+				"submittedAccountEmailAddress": "demo.transfollow@gmail.com",
+				"glnCode": null
+			},
+			"submitterAccountId": "29177",
+			"submitterName": "Demo",
+			"subscriptions": null,
+			"subsequentCarriers": [],
+			"timeWindowOfDelivery": null,
+			"timeWindowOfTakingOver": null,
+			"transFollowNumber": "000000250876",
+			"transportConditions": "AVC2002",
+			"transportReference": null,
+			"type": "WAYBILL",
+			"updates": [{
+				"account": {
+					"accountId": "29177",
+					"accountNumber": "00029302",
+					"email": "demo.transfollow@gmail.com",
+					"name": "Demo",
+					"phoneNumber": "+31623909477"
+				},
+				"commitId": "602743",
+				"createDateTimeClient": "2021-08-30T14:12:03.294Z",
+				"createDateTimeServer": "2021-08-30T14:12:03.294Z",
+				"newFreightDocumentStatus": "ISSUED"
+			}],
+			"viewPdfUrl": "https://partner.transfollow.com/api/freightdocuments/pdf/?token=00d23d99-15b5-41d0-bf93-ed421f1c85db"
+		},
+		{
+			"agreedDateOfDelivery": null,
+			"agreedDateOfTakingOver": null,
+			"agreedDateTimeOfDelivery": "2021-07-29T03:54:00Z",
+			"agreedDateTimeOfTakingOver": "2021-07-29T01:52:00Z",
+			"allowRtiAddition": false,
+			"approvals": [{
+				"action": "COLLECTION",
+				"approvalId": "32804",
+				"approvalLinkId": "7fa3c99d-9d08-4a16-83c7-b2c2f068ac8d",
+				"commitId": "602728",
+				"createDateTimeClient": "2021-08-30T14:10:53.610Z",
+				"createDateTimeServer": "2021-08-30T14:10:53.610Z",
+				"evidence": {
+					"type": "SIGN_ON_GLASS",
+					"attachments": [{
+						"attachmentId": "33056",
+						"clientId": "4b87a73c-cfca-4d90-9f35-ed570858f211",
+						"content": "",
+						"createdBy": null,
+						"createdDateTime": null,
+						"mimeType": "image/png",
+						"name": "Digital Signature by DCT",
+						"objectStoreUrl": "2021/8/30/4/10/signature-c20e1bcf-7c61-4be5-969e-b66934a59f19.png",
+						"originalFileName": "signature.png",
+						"sealed": null,
+						"size": {
+							"$numberInt": "38864"
+						},
+						"type": "SIGNONGLASS"
+					}],
+					"signedOnGlassBy": {
+						"email": null,
+						"name": "DCT"
+					}
+				},
+				"location": {
+					"locationId": "28909",
+					"latitude": {
+						"$numberDouble": "51.8781871"
+					},
+					"longitude": {
+						"$numberDouble": "4.519949"
+					},
+					"crs": "EPSG:4326"
+				},
+				"signOnGlassByName": "DCT",
+				"submitForFurtherInspection": false,
+				"submittedBy": {
+					"accountId": "29264",
+					"accountNumber": "00029389",
+					"email": "demo.transfollow+carrier@gmail.com",
+					"name": "demo TF carrier",
+					"phoneNumber": "+31(6)23909477"
+				},
+				"type": "SIGN_ON_GLASS"
+			}, {
+				"account": {
+					"accountId": "29264",
+					"accountNumber": "00029389",
+					"email": "demo.transfollow+carrier@gmail.com",
+					"name": "demo TF carrier",
+					"phoneNumber": "+31(6)23909477"
+				},
+				"action": "COLLECTION",
+				"approvalId": "32805",
+				"approvalLinkId": "7fa3c99d-9d08-4a16-83c7-b2c2f068ac8d",
+				"commitId": "602729",
+				"createDateTimeClient": "2021-08-30T14:10:53.990Z",
+				"createDateTimeServer": "2021-08-30T14:10:53.990Z",
+				"declined": false,
+				"driverName": "demo TF carrier",
+				"location": {
+					"locationId": "28910",
+					"latitude": {
+						"$numberDouble": "51.8781871"
+					},
+					"longitude": {
+						"$numberDouble": "4.519949"
+					},
+					"crs": "EPSG:4326"
+				},
+				"role": "CARRIER",
+				"submitForFurtherInspection": false,
+				"submittedBy": {
+					"accountId": "29264",
+					"accountNumber": "00029389",
+					"email": "demo.transfollow+carrier@gmail.com",
+					"name": "demo TF carrier",
+					"phoneNumber": "+31(6)23909477"
+				},
+				"type": "OWN"
+			}, {
+				"action": "DELIVERY",
+				"approvalId": "32806",
+				"approvalLinkId": "d42da540-f42e-42c5-86e0-fb5223aa487b",
+				"commitId": "602736",
+				"createDateTimeClient": "2021-08-30T14:11:44.631Z",
+				"createDateTimeServer": "2021-08-30T14:11:44.631Z",
+				"evidence": {
+					"type": "SIGN_ON_GLASS",
+					"attachments": [{
+						"attachmentId": "33057",
+						"clientId": "b853145c-f516-4d76-bd41-5861141869fc",
+						"content": "",
+						"createdBy": null,
+						"createdDateTime": null,
+						"mimeType": "image/png",
+						"name": "Digital Signature by 1005",
+						"objectStoreUrl": "2021/8/30/4/11/signature-58a2b7f0-5abc-4a03-b52b-95c5117be52c.png",
+						"originalFileName": "signature.png",
+						"sealed": null,
+						"size": {
+							"$numberInt": "42381"
+						},
+						"type": "SIGNONGLASS"
+					}],
+					"signedOnGlassBy": {
+						"email": null,
+						"name": "1005"
+					}
+				},
+				"location": {
+					"locationId": "28912",
+					"latitude": {
+						"$numberDouble": "51.8781887"
+					},
+					"longitude": {
+						"$numberDouble": "4.519944"
+					},
+					"crs": "EPSG:4326"
+				},
+				"signOnGlassByName": "1005",
+				"submitForFurtherInspection": false,
+				"submittedBy": {
+					"accountId": "29264",
+					"accountNumber": "00029389",
+					"email": "demo.transfollow+carrier@gmail.com",
+					"name": "demo TF carrier",
+					"phoneNumber": "+31(6)23909477"
+				},
+				"type": "SIGN_ON_GLASS"
+			}, {
+				"account": {
+					"accountId": "29264",
+					"accountNumber": "00029389",
+					"email": "demo.transfollow+carrier@gmail.com",
+					"name": "demo TF carrier",
+					"phoneNumber": "+31(6)23909477"
+				},
+				"action": "DELIVERY",
+				"approvalId": "32807",
+				"approvalLinkId": "d42da540-f42e-42c5-86e0-fb5223aa487b",
+				"commitId": "602737",
+				"createDateTimeClient": "2021-08-30T14:11:45.168Z",
+				"createDateTimeServer": "2021-08-30T14:11:45.168Z",
+				"declined": false,
+				"driverName": "demo TF carrier",
+				"location": {
+					"locationId": "28913",
+					"latitude": {
+						"$numberDouble": "51.8781887"
+					},
+					"longitude": {
+						"$numberDouble": "4.519944"
+					},
+					"crs": "EPSG:4326"
+				},
+				"role": "CARRIER",
+				"submitForFurtherInspection": false,
+				"submittedBy": {
+					"accountId": "29264",
+					"accountNumber": "00029389",
+					"email": "demo.transfollow+carrier@gmail.com",
+					"name": "demo TF carrier",
+					"phoneNumber": "+31(6)23909477"
+				},
+				"type": "OWN"
+			}],
+			"attachments": [{
+				"attachmentId": "33057",
+				"clientId": "b853145c-f516-4d76-bd41-5861141869fc",
+				"content": "",
+				"mimeType": "image/png",
+				"name": "Digital Signature by 1005",
+				"objectStoreUrl": "2021/8/30/4/11/signature-58a2b7f0-5abc-4a03-b52b-95c5117be52c.png",
+				"originalFileName": "signature.png",
+				"size": {
+					"$numberInt": "42381"
+				},
+				"type": "SIGNONGLASS"
+			}, {
+				"attachmentId": "33056",
+				"clientId": "4b87a73c-cfca-4d90-9f35-ed570858f211",
+				"content": "",
+				"mimeType": "image/png",
+				"name": "Digital Signature by DCT",
+				"objectStoreUrl": "2021/8/30/4/10/signature-c20e1bcf-7c61-4be5-969e-b66934a59f19.png",
+				"originalFileName": "signature.png",
+				"size": {
+					"$numberInt": "38864"
+				},
+				"type": "SIGNONGLASS"
+			}, {
+				"attachmentId": "33055",
+				"clientId": "c3007a6f-4a61-449e-8848-2c9ba4e2a1fa",
+				"content": "",
+				"mimeType": "image/jpeg",
+				"name": "image_2021_08_30 16:09:53.jpg",
+				"objectStoreUrl": "2021/8/30/4/10/image_2021_08_30 16:09:53-c59a10fd-500a-48b6-b06b-5cc1062a6954.jpg",
+				"originalFileName": "image_2021_08_30 16:09:53.jpg",
+				"sealed": false,
+				"size": {
+					"$numberInt": "110286"
+				},
+				"type": "REMARKS"
+			}],
+			"authorityReference": "NL000000167593TFL",
+			"availableSigningMethods": {
+				"collection": ["TFA", "SIGN_ON_GLASS"],
+				"carrierToCarrier": ["TFA"],
+				"delivery": ["TFA", "SIGN_ON_GLASS"]
+			},
+			"carrier": {
+				"accountId": "29264",
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "",
+				"contactEmailAddress": "",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "",
+				"countryName": "",
+				"glnCode": null,
+				"licensePlateData": {
+					"commitId": "602717",
+					"createDateTimeClient": "2021-08-30T14:08:57.968Z",
+					"createDateTimeServer": "2021-08-30T14:08:57.968Z",
+					"licensePlates": [{
+						"distanceDriven": null,
+						"licensePlateNumber": "12-AB-34",
+						"vehicleType": "TRUCK"
+					}, {
+						"distanceDriven": null,
+						"licensePlateNumber": "TE-12-ST",
+						"vehicleType": "TRAILER"
+					}]
+				},
+				"name": "Peter Appel Transport BV",
+				"permitNumber": null,
+				"postalBox": "",
+				"postalCode": "",
+				"roleId": "1349625",
+				"streetName": "",
+				"submittedAccountEmailAddress": "demo.transfollow+carrier@gmail.com",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"carrierAccessCode": null,
+			"carrierAccessCodes": null,
+			"carrierCode": "",
+			"carrierToDriverInstructions": null,
+			"checkIns": [],
+			"client": null,
+			"collectionCarrierArrival": "2021-08-30T14:09:26Z",
+			"collectionCarrierDeparture": "2021-08-30T14:09:31Z",
+			"collectionMission": {
+				"id": {
+					"$numberInt": "30303"
+				},
+				"type": "COLLECTION",
+				"status": "COMPLETED",
+				"company": {
+					"accountId": "34085",
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Tilburg",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400000327",
+					"name": "DCT",
+					"postalBox": "",
+					"postalCode": "5015BZ",
+					"roleId": "1349623",
+					"streetName": "Pegasusweg 1",
+					"submittedAccountEmailAddress": "tech.transport@ah.nl",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"place": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Tilburg",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400000327",
+					"name": "DCT",
+					"postalBox": "",
+					"postalCode": "5015BZ",
+					"roleId": "1349624",
+					"streetName": "Pegasusweg 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"agreedDateTime": "2021-07-29T01:52:00Z",
+				"eta": null,
+				"drivers": [],
+				"vehicles": [],
+				"freightDocuments": [],
+				"configuration": {
+					"workflow": ["START_MISSION", "REGISTER_ARRIVAL", "REGISTER_START_LOADING", "REGISTER_END_LOADING", "START_SIGNING", "REGISTER_DEPARTURE"]
+				}
+			},
+			"collectionSecrets": {
+				"s2": "914",
+				"s3": "212"
+			},
+			"comments": [{
+				"accountId": "29264",
+				"attachments": [{
+					"attachmentId": "33055",
+					"clientId": "c3007a6f-4a61-449e-8848-2c9ba4e2a1fa",
+					"content": "",
+					"mimeType": "image/jpeg",
+					"name": "image_2021_08_30 16:09:53.jpg",
+					"objectStoreUrl": "2021/8/30/4/10/image_2021_08_30 16:09:53-c59a10fd-500a-48b6-b06b-5cc1062a6954.jpg",
+					"originalFileName": "image_2021_08_30 16:09:53.jpg",
+					"sealed": false,
+					"size": {
+						"$numberInt": "110286"
+					},
+					"type": "REMARKS"
+				}],
+				"authorName": "demo TF carrier",
+				"clientMeta": null,
+				"commentId": "5819",
+				"commitId": "602726",
+				"createDateTimeClient": "2021-08-30T14:10:06.930Z",
+				"createDateTimeServer": "2021-08-30T14:10:06.930Z",
+				"creatorName": "demo TF carrier",
+				"creatorRole": "CARRIER",
+				"eventType": null,
+				"importance": "INFORMATION",
+				"location": {
+					"latitude": {
+						"$numberDouble": "51.8781994"
+					},
+					"longitude": {
+						"$numberDouble": "4.5199373"
+					},
+					"crs": null
+				},
+				"text": "Dit is een opmerking\n\nMijn levering had transportschade",
+				"type": "LEGAL_COMMENT"
+			}, {
+				"accountId": "29264",
+				"attachments": [],
+				"authorName": "demo TF carrier",
+				"clientMeta": null,
+				"commentId": "5820",
+				"commitId": "602735",
+				"createDateTimeClient": "2021-08-30T14:11:27.917Z",
+				"createDateTimeServer": "2021-08-30T14:11:27.917Z",
+				"creatorName": "demo TF carrier",
+				"creatorRole": "CARRIER",
+				"eventType": null,
+				"importance": "INFORMATION",
+				"location": {
+					"latitude": {
+						"$numberDouble": "51.8781887"
+					},
+					"longitude": {
+						"$numberDouble": "4.519944"
+					},
+					"crs": null
+				},
+				"text": "Opmerking bij afleveren",
+				"type": "LEGAL_COMMENT"
+			}],
+			"configuration": {
+				"allowRtiAddition": false,
+				"skipFreightDocumentDetails": false,
+				"signingInspections": {
+					"showAddress": true,
+					"showGoods": true,
+					"showRtis": false,
+					"showTimes": false,
+					"showReferences": false,
+					"showLicensePlates": false,
+					"showCommentsAndAttachments": true,
+					"showTemperatureControl": false,
+					"references": false,
+					"goods": true,
+					"rtis": false,
+					"times": false,
+					"commentsAndAttachments": true,
+					"temperatureControl": false,
+					"licensePlates": false,
+					"address": true
+				},
+				"counterpartySigningInspections": {
+					"showSeals": true
+				},
+				"availableSigningMethods": {
+					"collection": ["TFA", "SIGN_ON_GLASS"],
+					"carrierToCarrier": ["TFA"],
+					"delivery": ["TFA", "SIGN_ON_GLASS"]
+				},
+				"excludedTransferTypes": ["CARRIER_TO_CARRIER", "DELIVERY_FOR_FURTHER_INSPECTION", "LEAVE_AT_INTERMEDIATE", "PICKUP_FROM_INTERMEDIATE"],
+				"predefinedReturnableTransportItems": null,
+				"predefinedComments": ["Mijn levering had transportschade", "Mijn levering heeft manco", "Zegelnummer was incorrect"],
+				"allowRoleUpdateForCarrier": false,
+				"forceCarrierSoGSignature": false,
+				"skipProofOfTransfer": true,
+				"blockSigningOnError": true,
+				"allowCheckIn": false
+			},
+			"consignee": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Breda",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400010050",
+				"name": "1005",
+				"postalBox": "",
+				"postalCode": "4834HE",
+				"roleId": "1349626",
+				"streetName": "De Burcht 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"consignor": {
+				"accountId": "34085",
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Tilburg",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400000327",
+				"name": "DCT",
+				"postalBox": "",
+				"postalCode": "5015BZ",
+				"roleId": "1349623",
+				"streetName": "Pegasusweg 1",
+				"submittedAccountEmailAddress": "tech.transport@ah.nl",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"containers": [],
+			"controlledTemperatures": null,
+			"deliveryCarrierArrival": "2021-08-30T14:11:00Z",
+			"deliveryCarrierDeparture": "2021-08-30T14:11:04Z",
+			"deliveryDate": "2021-08-30",
+			"deliveryMission": {
+				"id": {
+					"$numberInt": "30304"
+				},
+				"type": "DELIVERY",
+				"status": "COMPLETED",
+				"company": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Breda",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400010050",
+					"name": "1005",
+					"postalBox": "",
+					"postalCode": "4834HE",
+					"roleId": "1349626",
+					"streetName": "De Burcht 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"place": {
+					"accountId": null,
+					"additionalDeliveryNotificationParties": [],
+					"addressComplement": null,
+					"buildingNumber": "",
+					"cityName": "Breda",
+					"contactEmailAddress": "tech.transport@ah.nl",
+					"contactFaxNumber": "",
+					"contactName": "",
+					"contactNote": "",
+					"contactPhoneNumber": "",
+					"countryCode": "NLD",
+					"countryName": "Netherlands",
+					"glnCode": "8710400010050",
+					"name": "1005",
+					"postalBox": "",
+					"postalCode": "4834HE",
+					"roleId": "1349627",
+					"streetName": "De Burcht 1",
+					"submittedAccountEmailAddress": "",
+					"taxIdentificationNumber": null,
+					"taxIdentificationNumberType": null,
+					"traderIdentificationNumber": null
+				},
+				"agreedDateTime": "2021-07-29T03:54:00Z",
+				"eta": null,
+				"drivers": [],
+				"vehicles": [],
+				"freightDocuments": [],
+				"configuration": {
+					"workflow": ["START_MISSION", "REGISTER_ARRIVAL", "REGISTER_START_UNLOADING", "REGISTER_END_UNLOADING", "START_SIGNING", "REGISTER_DEPARTURE"]
+				}
+			},
+			"deliverySecrets": {},
+			"mileageAtDeparture": null,
+			"mileageAtArrival": null,
+			"traversedDistance": null,
+			"mileageUnit": null,
+			"establishedCountry": "NLD",
+			"establishedDate": "2021-07-29",
+			"establishedPlace": "Tilburg",
+			"events": [{
+				"role": "CARRIER",
+				"type": "CARRIER_ARRIVAL",
+				"dateTime": "2021-08-30T14:09:26Z",
+				"location": null,
+				"value": "2021-08-30T14:09:26Z",
+				"action": "COLLECTION"
+			}, {
+				"role": "CARRIER",
+				"type": "LOADING_START",
+				"dateTime": "2021-08-30T14:09:28Z",
+				"location": null,
+				"value": "2021-08-30T14:09:28Z",
+				"action": "COLLECTION"
+			}, {
+				"role": "CARRIER",
+				"type": "LOADING_END",
+				"dateTime": "2021-08-30T14:09:30Z",
+				"location": null,
+				"value": "2021-08-30T14:09:30Z",
+				"action": "COLLECTION"
+			}, {
+				"role": "CARRIER",
+				"type": "CARRIER_DEPARTURE",
+				"dateTime": "2021-08-30T14:09:31Z",
+				"location": null,
+				"value": "2021-08-30T14:09:31Z",
+				"action": "COLLECTION"
+			}, {
+				"role": "CARRIER",
+				"type": "CARRIER_ARRIVAL",
+				"dateTime": "2021-08-30T14:11:00Z",
+				"location": {
+					"latitude": {
+						"$numberDouble": "51.8781871"
+					},
+					"longitude": {
+						"$numberDouble": "4.519949"
+					},
+					"crs": "EPSG:4326"
+				},
+				"value": "2021-08-30T14:11:00Z",
+				"action": "DELIVERY"
+			}, {
+				"role": "CARRIER",
+				"type": "UNLOADING_START",
+				"dateTime": "2021-08-30T14:11:02Z",
+				"location": {
+					"latitude": {
+						"$numberDouble": "51.8781871"
+					},
+					"longitude": {
+						"$numberDouble": "4.519949"
+					},
+					"crs": "EPSG:4326"
+				},
+				"value": "2021-08-30T14:11:02Z",
+				"action": "DELIVERY"
+			}, {
+				"role": "CARRIER",
+				"type": "UNLOADING_END",
+				"dateTime": "2021-08-30T14:11:03Z",
+				"location": {
+					"latitude": {
+						"$numberDouble": "51.8781871"
+					},
+					"longitude": {
+						"$numberDouble": "4.519949"
+					},
+					"crs": "EPSG:4326"
+				},
+				"value": "2021-08-30T14:11:03Z",
+				"action": "DELIVERY"
+			}, {
+				"role": "CARRIER",
+				"type": "CARRIER_DEPARTURE",
+				"dateTime": "2021-08-30T14:11:04Z",
+				"location": {
+					"latitude": {
+						"$numberDouble": "51.8781871"
+					},
+					"longitude": {
+						"$numberDouble": "4.519949"
+					},
+					"crs": "EPSG:4326"
+				},
+				"value": "2021-08-30T14:11:04Z",
+				"action": "DELIVERY"
+			}],
+			"externalIdentifier": null,
+			"freightDocumentId": "228323",
+			"goods": "",
+			"handlingInstructions": {
+				"controlledTemperature": false,
+				"temperature": "HB"
+			},
+			"incoterms": null,
+			"lastModifiedDateTime": "2021-08-30T14:11:45.277Z",
+			"logoObjectStoreUrl": null,
+			"orderNumber": null,
+			"ownDelegates": [],
+			"ownPermissions": [{
+				"permissions": ["VIEW", "SUBMIT_APPROVAL", "DELEGATE", "VIEW_SEALED_ATTACHMENT", "COMMENT"],
+				"role": "CONSIGNOR",
+				"roleId": "1349623"
+			}],
+			"paymentForCarriage": null,
+			"pdfTemplateType": "ECMR",
+			"placeOfDelivery": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Breda",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400010050",
+				"name": "1005",
+				"postalBox": "",
+				"postalCode": "4834HE",
+				"roleId": "1349627",
+				"streetName": "De Burcht 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"placeOfTakingOver": {
+				"accountId": null,
+				"additionalDeliveryNotificationParties": [],
+				"addressComplement": null,
+				"buildingNumber": "",
+				"cityName": "Tilburg",
+				"contactEmailAddress": "tech.transport@ah.nl",
+				"contactFaxNumber": "",
+				"contactName": "",
+				"contactNote": "",
+				"contactPhoneNumber": "",
+				"countryCode": "NLD",
+				"countryName": "Netherlands",
+				"glnCode": "8710400000327",
+				"name": "DCT",
+				"postalBox": "",
+				"postalCode": "5015BZ",
+				"roleId": "1349624",
+				"streetName": "Pegasusweg 1",
+				"submittedAccountEmailAddress": "",
+				"taxIdentificationNumber": null,
+				"taxIdentificationNumberType": null,
+				"traderIdentificationNumber": null
+			},
+			"recordedLocations": {
+				"locationCollectionCarrierArrival": null,
+				"locationCollectionCarrierDeparture": null,
+				"locationDeliveryCarrierArrival": {
+					"latitude": {
+						"$numberDouble": "51.8781871"
+					},
+					"longitude": {
+						"$numberDouble": "4.519949"
+					},
+					"crs": "EPSG:4326"
+				},
+				"locationDeliveryCarrierDeparture": {
+					"latitude": {
+						"$numberDouble": "51.8781871"
+					},
+					"longitude": {
+						"$numberDouble": "4.519949"
+					},
+					"crs": "EPSG:4326"
+				},
+				"locationLoadingStartTime": null,
+				"locationLoadingEndTime": null,
+				"locationUnloadingStartTime": {
+					"latitude": {
+						"$numberDouble": "51.8781871"
+					},
+					"longitude": {
+						"$numberDouble": "4.519949"
+					},
+					"crs": "EPSG:4326"
+				},
+				"locationUnloadingEndTime": {
+					"latitude": {
+						"$numberDouble": "51.8781871"
+					},
+					"longitude": {
+						"$numberDouble": "4.519949"
+					},
+					"crs": "EPSG:4326"
+				}
+			},
+			"references": [{
+				"allowCarrierEdit": false,
+				"name": "Note",
+				"referenceId": "0",
+				"roleId": null,
+				"value": "DCT|30-4-708, dock 35"
+			}, {
+				"allowCarrierEdit": false,
+				"name": "Dock",
+				"referenceId": "1",
+				"roleId": null,
+				"value": "35"
+			}, {
+				"allowCarrierEdit": false,
+				"name": "Trip identifier",
+				"referenceId": "2",
+				"roleId": null,
+				"value": "DCT|2021|30-4-708"
+			}],
+			"reimbursementCurrency": "   ",
+			"senderInstructions": "",
+			"signingInspections": {
+				"showAddress": true,
+				"showGoods": true,
+				"showRtis": false,
+				"showTimes": false,
+				"showReferences": false,
+				"showLicensePlates": false,
+				"showCommentsAndAttachments": true,
+				"showTemperatureControl": false,
+				"references": false,
+				"goods": true,
+				"rtis": false,
+				"times": false,
+				"commentsAndAttachments": true,
+				"temperatureControl": false,
+				"licensePlates": false,
+				"address": true
+			},
+			"specialAgreements": "",
+			"status": "DELIVERED",
+			"structuredGoods": [{
+				"type": "GOOD",
+				"commercialValue": null,
+				"commodityCode": null,
+				"currency": null,
+				"customMeasurementQuantity": null,
+				"customMeasurementUnit": null,
+				"eanCode": null,
+				"internalCode": null,
+				"loadingMeters": null,
+				"methodOfPackaging": null,
+				"name": "Goods",
+				"natureOfGoods": null,
+				"netWeight": null,
+				"netWeightUnit": null,
+				"numberOfLoadingPlaces": null,
+				"numberOfPackages": null,
+				"numberOfPackagesRefusedAtDelivery": null,
+				"productId": {
+					"$numberInt": "1"
+				},
+				"references": null,
+				"shortName": null,
+				"ssccCode": null,
+				"statisticalNumber": null,
+				"tareWeight": null,
+				"tareWeightUnit": null,
+				"volume": null,
+				"volumeUnit": null,
+				"weight": null,
+				"weightUnit": null
+			}],
+			"structuredGoodsInfo": {
+				"totalNumberOfPackages": {
+					"$numberInt": "20"
+				},
+				"totalGrossWeight": {
+					"$numberInt": "8000"
+				},
+				"totalGrossWeightUnit": "KILOGRAM",
+				"totalNetWeight": null,
+				"totalNetWeightUnit": null,
+				"totalTareWeight": null,
+				"totalTareWeightUnit": null,
+				"totalVolume": null,
+				"totalVolumeUnit": null,
+				"totalCommercialValue": null,
+				"totalLoadingMeters": null,
+				"totalCommercialValueCurrency": null,
+				"emergencyPhoneNumber": null,
+				"emergencyContactName": null,
+				"sealNumbers": "123456",
+				"totalCustomMeasurementQuantity": null,
+				"totalCustomMeasurementUnit": null
+			},
+			"submitter": {
+				"accountId": "29177",
+				"name": "Demo",
+				"submittedAccountEmailAddress": "demo.transfollow@gmail.com",
+				"glnCode": null
+			},
+			"submitterAccountId": "29177",
+			"submitterName": "Demo",
+			"subscriptions": null,
+			"subsequentCarriers": [],
+			"timeWindowOfDelivery": {
+				"startDateTime": "2021-08-30T14:11:02Z",
+				"endDateTime": "2021-08-30T14:11:03Z"
+			},
+			"timeWindowOfTakingOver": {
+				"startDateTime": "2021-08-30T14:09:28Z",
+				"endDateTime": "2021-08-30T14:09:30Z"
+			},
+			"transFollowNumber": "000000250875",
+			"transportConditions": "AVC2002",
+			"transportReference": null,
+			"type": "WAYBILL",
+			"updates": [{
+				"account": {
+					"accountId": "29177",
+					"accountNumber": "00029302",
+					"email": "demo.transfollow@gmail.com",
+					"name": "Demo",
+					"phoneNumber": "+31623909477"
+				},
+				"commitId": "602721",
+				"createDateTimeClient": "2021-08-30T14:08:58.037Z",
+				"createDateTimeServer": "2021-08-30T14:08:58.037Z",
+				"newFreightDocumentStatus": "ISSUED"
+			}, {
+				"account": {
+					"accountId": "29264",
+					"accountNumber": "00029389",
+					"email": "demo.transfollow+carrier@gmail.com",
+					"name": "demo TF carrier",
+					"phoneNumber": "+31(6)23909477"
+				},
+				"commitId": "602730",
+				"createDateTimeClient": "2021-08-30T14:10:54.053Z",
+				"createDateTimeServer": "2021-08-30T14:10:54.053Z",
+				"newFreightDocumentStatus": "TRANSIT"
+			}, {
+				"account": {
+					"accountId": "29264",
+					"accountNumber": "00029389",
+					"email": "demo.transfollow+carrier@gmail.com",
+					"name": "demo TF carrier",
+					"phoneNumber": "+31(6)23909477"
+				},
+				"commitId": "602738",
+				"createDateTimeClient": "2021-08-30T14:11:45.277Z",
+				"createDateTimeServer": "2021-08-30T14:11:45.277Z",
+				"newFreightDocumentStatus": "DELIVERED"
+			}],
+			"viewPdfUrl": "https://partner.transfollow.com/api/freightdocuments/pdf/?token=c6134c9f-6b38-4398-9fda-cd7f71792376"
+		}
+	]
+}
